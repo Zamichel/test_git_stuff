@@ -11,9 +11,6 @@
   fields:
   - dimension: name
     type: string
-  - measure: sum_value
-    type: sum
-    sql: ${TABLE}.value
 
 - dashboard: test_dash
   layout: tile
